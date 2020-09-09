@@ -66,7 +66,7 @@ EOF
 
 4. Create service yaml file for mysql.
 ```
-kubectl expose deployment mysql --port 3306 --dry-run -o yaml > wordpress_chart/mysql-svc.yaml
+kubectl expose deployment mysql --port 3306 --dry-run -o yaml > wordpress_chart/templates/mysql-svc.yaml
 ```
 
 5. Create deployment yaml file for WordPress.
