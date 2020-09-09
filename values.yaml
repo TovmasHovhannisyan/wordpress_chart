@@ -1,0 +1,14 @@
+replicas:
+  mysql: 1
+  wordpress: 1
+
+image:
+  wordpress: wordpress:latest
+  mysql: mysql:latest
+
+
+
+# Fill mysql root password
+# The following command can be used to get base64-encoded password from a plain text string: $ echo -n 'plain-text-password' | base64
+password:
+  root: cm9vdF9wYXNzd29yZA==
